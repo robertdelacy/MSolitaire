@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -54,7 +55,7 @@ namespace Solitaire
         public MSolitaire()
         {
             InitializeComponent();
-
+            
             CurrentCardLocation[0] = CurrentCard.Left;
             CurrentCardLocation[1] = CurrentCard.Top;
             StackTopLocation = One_1.Top;
@@ -785,7 +786,7 @@ namespace Solitaire
             }
             else
             {
-                Slot.Image = Image.FromFile(PublicVariables.Settings[2] + "/" + Suit + "_" + face + "_small.png");
+                Slot.Image = Image.FromFile(PublicVariables.Settings[2] + "\\" + Suit + "_" + face + "_small.png");
             }
         }
 
@@ -2246,7 +2247,8 @@ namespace Solitaire
 
     public class PublicVariables
     {
-        public static string[] Settings = { "D:/Documents/Programming/MSolitaire/bkgnd", "D:/Documents/Programming/MSolitaire/back", "D:/Documents/Programming/MSolitaire/decks/stock", "D:/Documents/Programming/MSolitaire/ui" };
+        static string Directory = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, @"..\..\..\"));
+        public static string[] Settings = { Directory + "/Bkgnd", Directory + "/Decks/Backs", Directory + "Decks\\Faces\\Stock", Directory + "/UI" };
 
         public static string[,] HighScores = { { "Robert", "1","10","300" } };
         public static string[] MostRecentScore = { "1", "Robert", "1", "10", "300" };
