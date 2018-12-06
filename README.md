@@ -22,4 +22,6 @@ Once built, a binary for the system will appear at `Solitaire/bin/debug/Solitair
 
 ## Screenshots
 
-<img src="https://github.com/robertdelacy/MSolitaire/raw/master/Screenshot.jpg" alt="Screenshot" width="500"><img src="https://github.com/robertdelacy/MSolitaire/raw/master/Screenshot 2.jpg" alt="Screenshot" width="500">
+Initial Window | In Play
+:-------------:|:-------:
+![](https://github.com/robertdelacy/MSolitaire/raw/master/Screenshot.jpg)|![](https://github.com/robertdelacy/MSolitaire/raw/master/Screenshot2.jpg)
