@@ -20,6 +20,9 @@ Once built, a binary for the system will appear at `Solitaire/bin/debug/Solitair
 
 <img src="https://github.com/robertdelacy/MSolitaire/raw/master/UI/Help (Rules).PNG" alt="Help (Rules)" width="500">
 
+- Includes a 'High Score' Leaderboard
+- Customise the window background, the backs and the faces of the cards (Incomplete)
+
 ## Screenshots
 
 Initial Window | In Play
