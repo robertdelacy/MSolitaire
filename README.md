@@ -8,6 +8,18 @@
 
 ## Install
 
+You can build from a clone:
+
+```sh
+git clone https://github.com/robertdelacy/MSolitaire
+```
+
+Once built, a binary for the system will appear at `Solitaire/bin/debug/Chichester Cattery Booking System`.
+
 ## How to Play
 
+<img src="https://github.com/robertdelacy/MSolitaire/raw/master/UI/Help (Rules).PNG" alt="Help (Rules)" width="500">
+
 ## Screenshots
+
+<img src="https://github.com/robertdelacy/MSolitaire/raw/master/Screenshot.jpg" alt="Screenshot" width="500">
