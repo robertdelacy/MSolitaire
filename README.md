@@ -14,7 +14,7 @@ You can build from a clone:
 git clone https://github.com/robertdelacy/MSolitaire
 ```
 
-Once built, a binary for the system will appear at `Solitaire/bin/debug/MSolitaire`.
+Once built, a binary for the system will appear at `Solitaire/bin/debug/Solitaire`.
 
 ## How to Play
 
